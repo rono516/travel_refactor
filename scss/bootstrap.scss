@@ -1,0 +1,32 @@
+/******* Customized Bootstrap ********/
+
+Kshprimary: #13357B;
+Kshsecondary: #1f05e6;
+Kshlight: #F2F2F2;
+Kshdark: #14141F;
+
+Kshfont-family-base: 'Roboto', sans-serif;
+
+Kshheadings-font-family: 'Jost', sans-serif;
+
+Kshbody-color: #757575;
+
+Kshheadings-color: Kshdark;
+
+Kshheadings-font-weight: 500;
+
+Kshdisplay-font-weight: 600;
+
+Kshenable-responsive-font-sizes: true;
+
+Kshborder-radius: 10px;
+
+Kshborder-radius-sm: Kshborder-radius;
+
+Kshborder-radius-lg: Kshborder-radius;
+
+Kshlink-decoration: none;
+
+Kshenable-negative-margins: true;
+
+@import "bootstrap/scss/bootstrap";
