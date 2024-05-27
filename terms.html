@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Watch Tropical Wildlife Safaris</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-primary px-5 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i
+                            class="fab fa-twitter fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i
+                            class="fab fa-facebook-f fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i
+                            class="fab fa-linkedin-in fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i
+                            class="fab fa-instagram fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i
+                            class="fab fa-youtube fw-normal"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a href="#"><small class="me-3 text-light"><i class="fa fa-user me-2"></i>Register</small></a>
+                    <a href="#"><small class="me-3 text-light"><i class="fa fa-sign-in-alt me-2"></i>Login</small></a>
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-toggle text-light" data-bs-toggle="dropdown"><small><i
+                                    class="fa fa-home me-2"></i> My Dashboard</small></a>
+                        <div class="dropdown-menu rounded">
+                            <a href="#" class="dropdown-item"><i class="fas fa-user-alt me-2"></i> My Profile</a>
+                            <a href="#" class="dropdown-item"><i class="fas fa-comment-alt me-2"></i> Inbox</a>
+                            <a href="#" class="dropdown-item"><i class="fas fa-bell me-2"></i> Notifications</a>
+                            <a href="#" class="dropdown-item"><i class="fas fa-cog me-2"></i> Account Settings</a>
+                            <a href="#" class="dropdown-item"><i class="fas fa-power-off me-2"></i> Log Out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+            <a href="" class="navbar-brand p-0">
+                <h6 style="font-weight: bold;" class="m-0 "><i class="fa fa-map-marker-alt me-3"></i>Watch Tropical
+                    Wildlife Safaris</h6>
+                <!-- <img src="img/logo.png" alt="Logo"> -->
+            </a>
+            <button class="navbar-toggler mt-2 mt-md-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <!--  <a href="about.html" class="nav-item nav-link">About</a> -->
+                    <!-- <a href="services.html" class="nav-item nav-link">Services</a> -->
+                    <a href="about.html" class="nav-item nav-link">About us</a>
+                    <!--  <a href="blog.html" class="nav-item nav-link">Blog</a> -->
+                    <!-- <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="destination.html" class="dropdown-item">Destination</a>
+                            <a href="tour.html" class="dropdown-item">Explore Tour</a>
+                            <a href="booking.html" class="dropdown-item">Travel Booking</a>
+                            <a href="gallery.html" class="dropdown-item">Our Gallery</a>
+                            <a href="guides.html" class="dropdown-item">Travel Guides</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        </div>
+                    </div> -->
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="terms.html" class="nav-item nav-link">Our Terms</a>
+                    <a href="travelinfo.html" class="nav-item nav-link">Travel Information</a>
+                </div>
+                <a href="booking.html" class="btn btn-primary rounded-pill py-2 px-4 ms-lg-4">Book Now</a>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-breadcrumb">
+        <div class="container text-center py-5" style="max-width: 900px;">
+            <h3 class="text-white display-3 mb-4">About Us</h1>
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                    <li class="breadcrumb-item active text-white">About</li>
+                </ol>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- About Start -->
+    <div class="container-fluid about py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <!-- <div class="col-lg-5">
+                        <div class="h-100" style="border: 50px solid; border-color: transparent #13357B transparent #13357B;">
+                            <img src="img/about-img.jpg" class="img-fluid w-100 h-100" alt="">
+                        </div>
+                    </div> -->
+                <div class="col-lg-12"
+                    style="background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8))">
+                    <h5 class="section-about-title pe-3">Our Terms</h5>
+                    <h1 class="mb-4">TERMS AND CONDITIONS OF TOURS OPERATION
+                    </h1>
+                    <h4 style="font-weight: bold;">1. RESERVATIONS AND PAYMENTS</h4>
+
+                    <ol type="a">
+                        <li>
+                            <p>
+                                Reservations are made by contacting WTWS directly, herein after referred to as the
+                                “Company”, or through an agent, if your booking is made by one.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Safaris are booked and only confirmed on receipt of a 50% deposit of the basic safari
+                                rate. There shall be no binding contract until the deposit has been paid. Failure to
+                                remit your deposit on time may result in an automatic release of the confirmed space and
+                                the possible inability to reinstate your reservation. When the Company acknowledges
+                                receipt in writing of the deposit to you, it shall be deemed to constitute acceptance
+                                and confirmation of the reservation. By paying a deposit, you the client and WTWS are
+                                deemed to be under contract for the dates quoted for your safari. Deposits are not
+                                refundable- the very principle of accepting a deposit being to confirm arrangements, and
+                                to mitigate the total loss of a safari booking in the event of a postponement or a
+                                cancellation, and to ensure a commitment by both parties.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The balance is due on arrival before commencement of your safari. If the balance is not
+                                paid on this date, the Company shall be entitled at its discretion to treat your
+                                reservations as cancelled and consequently your deposit will be forfeit.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Any additions to your reservation made within sixty (60) days of commencement of your
+                                safari may be accepted- provided space is available, payment in full is received, and
+                                documentation finalized before departure.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Bookings are also conditional on you the client signing a RELEASE FORM which must be
+                                received by us before your arrival.
+                            </p>
+                        </li>
+                    </ol>
+
+                    <h4 style="font-weight: bold;">2. POSTPONEMENT REQUESTS</h4>
+
+                    <ol type="a">
+                        <li>
+                            <p>
+                                Any postponement request of reservation must be in writing. The company at its sole
+                                discretion, retains the right either to accept or refuse such postponement request,
+                                which shall only be effective upon its acknowledged receipt by the company.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                In the event of any agreed postponement, the deposit will be debited only if the booked
+                                hotels/lodge in your safari itinerary charges differently according to the tour season
+                                at the time. Otherwise deposit/the balance will be put forward to the new dates. In the
+                                event of an agreed cancellation, the difference due on the full deposit will be billed
+                                and subject to immediate settlement.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                If you request a postponement of your safari after the final balance has been paid or
+                                due (within 60 days ahead of safari starting date), and in the event the company does
+                                not agree to a postponement, the whole basic safari fee is forfeited. If the company, at
+                                its sole discretion, does agree to a postponement, the whole basic safari fee is
+                                forfeit. If the company, at its sole discretion, does agree to a postponement, the
+                                deposit (50 of the basic safari fee) will be forfeit.
+                            </p>
+                        </li>
+                    </ol>
+
+                    <h4 style="font-weight: bold;">3. CANCELLATION AND NO SHOWS
+                    </h4>
+
+                    <p class="mb-4">
+                        Any cancellation of reservation must be in writing and shall only be honored if signed by the
+                        intended traveler or his/her agent if the booking was through agent. The following are the
+                        cancellation rules applicable if a written advice of cancellation is received:-
+
+                    </p>
+                    <ol type="i">
+                        <li>
+                            <p>
+                                56 days and above before departure - Refund of 90% of deposit.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                40 days to 56 days before departure – Refund of 65% of deposit.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                26 days to 39 days before departure – Refund of 50% of deposit.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                13 days to 25 days before departure – Refund of 25% of deposit.
+                            </p>
+                        </li>
+
+                    </ol>
+                    <p style="font-weight: bold;"> Less than 13 days before departure – No refund at all.</p>
+
+                    <h4 style="font-weight: bold;">4. REFUNDS
+                    </h4>
+
+                    <p class="mb-4">
+                        No refunds are given (1) if you only complete a portion of your safari booking and leave early.
+                        The safari section left unused cannot be refunded or reused on a future safari booking. (2) for
+                        lost travel time or substitution of facilities, (3) for itineraries amended after departure, (4)
+                        for circumstances arising beyond the company’s control, necessitating alternative arrangements
+                        to be made to ensure the safety and/or further participation and enjoyment of your safari, (5)
+                        sightseeing or trip segment.
+                    </p>
+
+                    <h4 style="font-weight: bold;">
+                        5. FOR YOUR INFORMATION
+                    </h4>
+                    <ol type="a">
+                        <li>
+                            <p>
+                                The company acts as a booking agent when requested or necessary, for hotels, airlines,
+                                air charters, but companies, ground transportation, boat purveyors or owners and other
+                                independent contractors providing accommodations, transportation, and/or other services.
+                                Each of these companies is and independent corporation with its won management and is
+                                not subject to the control of including, but not limited to, various ground/air
+                                operators.
+                            </p>
+                        </li>
+                    </ol>
+
+                    <p class="mb-4">
+                        All bookings like those described above are accepted by the company, as agent for independent
+                        ground/air operators. The transportation, accommodations and other services provided by the
+                        ground/air operators are offered subject to the terms and conditions contained in the tickets,
+                        exchange orders or vouchers issued by them and/or their suppliers. Because the company does not
+                        have the right to control the operations of the independent operators and their suppliers,
+                        <span style="font-weight: bold;">IT CANNOT BE LIABLE FOR ANY PERSONAL INJURY OR PORPERTY
+                            DAMAGE</span>
+                        which may arise out of these services.
+                    </p>
+
+                    <p>
+                        The company reserves the right to cancel any itinerary or any part of it, to make such
+                        alterations in the itinerary as it deems necessary or desirable, to refuse to accept or to
+                        retain as a member of any safari members any expenditure occasioned by delays of events beyond
+                        control. In case of any appreciable variation in its cost, the company reserves the right to
+                        adjust its rates.
+                    </p>
+
+                    <h4 style="font-weight: bold;">
+                        6. RISKS
+                    </h4>
+
+                    <ol type="a">
+                        <li>
+                            <p>
+                                The company draws your attention to the fact that there are certain inherent risks
+                                involved in participating in the type of trips and/or safaris sold by the company and
+                                that you accept them at your own risk.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                It is your sole responsibility to take all appropriate medical advice prior to departure
+                                as to whether you are fit enough to undertake the trip booked. The company shall not be
+                                liable for illness, injury or death sustained on a program sold by the company, its
+                                officers, employees, authorized representatives or agents whomsoever.
+                            </p>
+                        </li>
+                    </ol>
+
+                    <h4 style="font-weight: bold;">
+                        7. FORCE MAJEURE
+                    </h4>
+
+                    <ol type="a">
+                        <li>
+                            <p>
+                                <span style="font-weight: bold;">“Force Majeure”</span>
+                                means in relation to the company, any circumstances beyond the reasonable control of the
+                                company, (including, but without limitation, acts of God, explosion, flood , tempest,
+                                fire or accident, war or threat of war, sabotage, insurrection, civil disturbance or
+                                requisition)
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                If the company is affected by Force Majeure it shall forthwith notify you of the nature
+                                and the extent thereof.
+                            </p>
+                        </li>
+                    </ol>
+
+                    <p class="mb-4">
+                        If the company is affected by Force Majeure it shall be entitled to, and may in its sole and
+                        absolute discretion, vary or cancel any itinerary or arrangement in relation to the trip.
+                        Payment of any refund by the company to you as a result of the non-performance of any of the
+                        company’s obligations hereunder shall remain at its sole and absolute discretion whilst
+                        endeavoring to reimburse you where possible. However, the recovery of the reasonable, actual and
+                        potential costs to the company of the Force Majeure shall apply.
+                    </p>
+                    <p class="mb-4">
+                        Regarding civil unrest, once the company has investigated the prevailing situation as it deems
+                        fit, it shall remain in the company’s sole and absolute discretion whether to proceed with the
+                        trip. You may in such circumstances cancel the trip. However , if, after having made all
+                        reasonable proper enquiries, the company is of the opinion that the trip may proceed, no refund
+                        will be payable to you and the provisions of clause 2 shall apply.
+                    </p>
+
+                    <h4 style="font-weight: bold;">
+                        8. INSURANCE
+                    </h4>
+                    <p>
+                        The company strongly recommends that you obtain the following types of insurance which are
+                        commercially available;
+                    </p>
+
+                    <ul>
+                        <li>
+                            <p>
+                                Accident, Death and Disability
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Major Medical
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Emergency Medical Evacuation
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Trip Cancellation.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Loss of Personal Effects
+                            </p>
+                        </li>
+                    </ul>
+
+                    <h4 style="font-weight: bold;">
+                        9. SURCHARGES
+
+                    </h4>
+
+                    <p class="mb-4">
+                        Although the company hopes that it will not need to levy surcharges, it reserves the right to do
+                        so on the invoice amount, if this becomes necessary. The company will endeavor to notify you in
+                        writing as soon as it is aware of any likely surcharge is not paid within such time, the company
+                        may construe such non payment as an act of cancellation on your part and the provisions of
+                        clause 2 shall be at its sole and absolute discretion.
+                    </p>
+                    <h4 style="font-weight: bold;">
+                        10. BOOKING TERMS AND CONDITIONS
+                    </h4>
+
+                    <p class="mb-4">
+                        Booking terms and conditions govern the relationship between the company and you, to the total
+                        exclusion of any other bookings, terms and conditions. No alteration to the bookings, terms and
+                        conditions may be made by any of the company’s employees, authorized representatives or agents,
+                        unless in writing by an authorized officer of the company. All decisions and matters subject to
+                        the company’s discretion shall be made by an authorized officer of the company.
+                    </p>
+                    <h4 style="font-weight: bold;">
+                        11. CARRIAGE BY LAND, SEA AND AIR
+                    </h4>
+
+                    <p class="mb-4">
+                        Carriage by Land, Sea and Air are subject to the terms and conditions of the carrier with whom
+                        you travel and to international conventions some of which might limit liability. Land, Sea and
+                        Air travel are also subject to operational decisions of carriers and air and sea ports which may
+                        result in cancellations, delays and diversions, over which the company ahs no control and for
+                        which the company accepts no liability whatsoever.
+                    </p>
+                    <h4 style="font-weight: bold;">
+                        12. BAGGAGE
+
+                    </h4>
+
+                    <p class="mb-4">
+                        Temporary for permanent loss of baggage is the responsibility of yourself or the carrier. It is
+                        not the responsibility of the safari company and any expense involved in such a loss is entirely
+                        yours/or the carrier’s responsibility.
+                    </p>
+                    <h4 style="font-weight: bold;">
+                        13. TRAVEL DOCUMENTS AND VACCINATIONS
+                    </h4>
+
+                    <p class="mb-4">
+                        It is your responsibility to ensure that passports, visas, travel permits, health certificates,
+                        inoculations, or other documentation required for the trip are obtained and are in order. It is
+                        your responsibility to meet any additional costs incurred either by yourself (or by the company
+                        on your behalf) as a result of any failure by you to company with such requirements.
+                    </p>
+                    <h4 style="font-weight: bold;">
+                        14. INFORMATION IN THE WEBSITE
+
+                    </h4>
+
+                    <p class="mb-4">
+                        All information given in this website is, to the best of the company’s correct at the time of
+                        going to press but the company reserves the right to change the same.
+                    </p>
+                    <h4 style="font-weight: bold;">
+                        15. DISPUTES
+                    </h4>
+
+                    <p class="mb-4">
+                        If you have any cause for complaint while traveling, you must immediately bring it to the
+                        attention of the company’s local representative or agent who will attempt to resolve the
+                        situation.
+                    </p>
+                    <h4 style="font-weight: bold;">
+                        16. CONSENT
+                    </h4>
+
+                    <p class="mb-4">
+                        The payment of the deposit OR any other partial payment for a reservation on a safari
+                        constitutes consent to all provisions of the booking and the conditions and general information
+                        contained in this website. The terms under which you agree to take these safaris cannot be
+                        changed or amended except in writing signed by an authorized officer of the company.
+                    </p>
+                    <h4 style="font-weight: bold;">
+                        17. MONEY PAID TO BOOKING AGENTS
+                    </h4>
+
+                    <p class="mb-4">
+                        If your safari is booked with an agent, your booking agent will forward deposits and other
+                        payments to us on your behalf. Since your booking agent is not our agent for the purpose of the
+                        receipt of monies, there is no liability on our part unless and until we notify you (by way of a
+                        booking confirmation) that monies paid have been received by us. We will issue a booking
+                        confirmation to agent immediately upon receipt of their payment on your behalf.
+                    </p>
+                    <h4 style="font-weight: bold;">
+                        18. CONDITION OF BOOKING
+                    </h4>
+
+                    <p class="mb-4">
+                        You shall comply with the instructions of the company’s representatives at all times. No client
+                        shall be accepted or permitted to continue on safari while their status, mental or physical
+                        condition is, in the opinion of the representative of the company, such as to render them
+                        incapable of caring for themselves; objectionable to other clients, become a hazard to
+                        themselves or other clients or safari company employees. The company will not be responsible for
+                        expenses by such persons precluded from completing the safari for this reason.
+                    </p>
+                    <h4 style="font-weight: bold;">
+                        19. NOTICE OF RESPONSIBILITY
+                    </h4>
+
+                    <p class="mb-4">
+                        When you book travel related services with the company, you are entering into a binding
+                        agreement that assumes all terms and conditions are fully understood as stated in this website.
+                    </p>
+                    <h4 style="font-weight: bold;">
+                        20. YOUR BOOKING AGENT’S RESPONSIBILTY (IF YOU USE AN AGENT).
+                    </h4>
+
+                    <p class="mb-4">
+                        At WTWS we enjoy a first class working relationship with booking agents throughout the world to
+                        facilitate the reservations process for you, requests its booking agents to provide you with
+                        thorough communications pertaining to your booking. Your agent has been provided with a list of
+                        responsibilities to assist and inform you on matters such as required documentations, payments,
+                        schedules and cancellation policies. Your agent will assist you to the best of his/her ability
+                        in providing answers and information pertaining to your booking.
+                    </p>
+                    <h4 style="font-weight: bold;">
+                        21. GAME TROPHIES
+                    </h4>
+
+                    <p class="mb-4">
+                        In Kenya as it stands now, no wildlife trophies are allowed to be collected, bought with
+                        intentions of being shipped outside the country. This is highly prohibited by the country’s
+                        laws.
+                    </p>
+
+
+
+
+
+
+                    <!-- <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href="contact.html">Contact Us</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="mb-4 text-white">Get In Touch</h4>
+                        <a href=""><i class="fas fa-home me-2"></i> Nairobi, Kenya</a>
+                        <a href=""><i class="fas fa-envelope me-2"></i> info@example.com</a>
+                        <a href=""><i class="fas fa-phone me-2"></i> +254713418163</a>
+                        <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +254713418163</a>
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-share fa-2x text-white me-2"></i>
+                            <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i
+                                    class="fab fa-twitter"></i></a>
+                            <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i
+                                    class="fab fa-instagram"></i></a>
+                            <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="mb-4 text-white">Company</h4>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> About</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Careers</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Blog</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Press</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Gift Cards</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Magazine</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="mb-4 text-white">Support</h4>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Contact</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Legal Notice</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Terms and Conditions</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Sitemap</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Cookie policy</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item">
+                        <div class="row gy-3 gx-2 mb-4">
+                            <div class="col-xl-6">
+                                <form>
+                                    <div class="form-floating">
+                                        <select class="form-select bg-dark border" id="select1">
+                                            <option value="1">Arabic</option>
+                                            <option value="2">German</option>
+                                            <option value="3">Greek</option>
+                                            <option value="3">New York</option>
+                                        </select>
+                                        <label for="select1">English</label>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-xl-6">
+                                <form>
+                                    <div class="form-floating">
+                                        <select class="form-select bg-dark border" id="select1">
+                                            <option value="1">USD</option>
+                                            <option value="2">EUR</option>
+                                            <option value="3">INR</option>
+                                            <option value="3">GBP</option>
+                                        </select>
+                                        <label for="select1">Ksh</label>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <h4 class="text-white mb-3">Payments</h4>
+                        <div class="footer-bank-card">
+                            <a href="#" class="text-white me-2"><i class="fab fa-cc-amex fa-2x"></i></a>
+                            <a href="#" class="text-white me-2"><i class="fab fa-cc-visa fa-2x"></i></a>
+                            <a href="#" class="text-white me-2"><i class="fas fa-credit-card fa-2x"></i></a>
+                            <a href="#" class="text-white me-2"><i class="fab fa-cc-mastercard fa-2x"></i></a>
+                            <a href="#" class="text-white me-2"><i class="fab fa-cc-paypal fa-2x"></i></a>
+                            <a href="#" class="text-white"><i class="fab fa-cc-discover fa-2x"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright text-body py-4">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-6 text-center text-md-end mb-md-0">
+                    <i class="fas fa-copyright me-2"></i><a class="text-white" href="#">Watch Tropical Wildlife
+                        Safaris</a>, All right reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-start">
+                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                    Designed By <a class="text-white" href="#">Tropical Safaris</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"><i
+            class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
